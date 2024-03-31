@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume/CV Design</title>
+    <link rel="stylesheet" href="swap.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="leader.jpg" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">Thiruneelakandan S</p>
+           <p class="regular"></p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fas fa-map-signs"></i>
+             </div>
+             <div class="data">
+               Keezhathur(H) Vadakadu(po)<br/> Alangudi,pudukkottai.
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-mobile-alt"></i>
+             </div>
+             <div class="data">
+               8110082700
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <div class="data">
+               thiruneelakandan2912@gmail.com
+             </div>
+           </li>
+           <li>
+             
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">skill's</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name">
+               Html/css
+             </div>
+             <div class="skill_progress">
+               <span style="width: 80%;"></span>
+             </div>
+             <div class="skill_per">80%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               Bootsrap
+             </div>
+             <div class="skill_progress">
+               <span style="width: 70%;"></span>
+             </div>
+             <div class="skill_per">70%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               JAVA
+             </div>
+             <div class="skill_progress">
+               <span style="width: 90%;"></span>
+             </div>
+             <div class="skill_per">90%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               JS
+             </div>
+             <div class="skill_progress">
+               <span style="width: 60%;"></span>
+             </div>
+             <div class="skill_per">60%</div>
+           </li>
+           <li>
+             <div class="skill_name">
+               SQL
+             </div>
+             <div class="skill_progress">
+               <span style="width: 88%;"></span>
+             </div>
+             <div class="skill_per">88%</div>
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Languages Know</p>
+         </div>
+         <ul>
+           <li>
+             
+             <div class="data">
+               <p class="semi-bold">English</p>
+               <p></p>
+             </div>
+           </li>
+           <li>
+             
+             <div class="data">
+               <p class="semi-bold">Tamil</p>
+               <p></p>
+             </div>
+           </li>
+           <li>
+             
+            
+         
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">Objectives</p>
+         </div>
+        <p>Results-driven professional seeking a challenging role in [industry] where I can utilize my [relevant skills] to contribute to the company's success and grow within the organization.</p>
+    </div>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <p class="bold">Education</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date">2017- 2018</div> 
+                <div class="info">
+                     <p class="semi-bold">SSLC 81%</p> 
+                  <p>Govt boys higher secondary school alangudi</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2019 -2020 </div>
+              <div class="info">
+                     <p class="semi-bold">HSC 70%</p> 
+                  <p>Govt boys higher secondary school alangudi</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2020 - 2023 </div>
+              <div class="info">
+                     <p class="semi-bold">BCA - 75%</p> 
+                  <p>JJ college of arts and Science</p>
+                </div>
+            </li>
+            <li>
+              <div class="date">2023- present </div>
+              <div class="info">
+                     <p class="semi-bold">MCA-[pursuing]</p> 
+                  <p>Hindustan University</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <p class="bold">Certification</p>
+         </div>
+      <ul>
+            <li>
+                
+                <div class="info">
+                  <p class="semi-bold"> How to Be a trend setter as a freelancer</p> 
+                    
+                </div>
+            </li>
+            <li>
+              
+              <div class="info">
+                     <p class="semi-bold"> A one day national workshop on </p> 
+                  <p>Hardware and software of human body wellness </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+           <p class="bold">Hobby</p>
+         </div>
+         <p class="semi-bold">play games</p>
+         <p class="semi-bold">watch movies</p>
+        
+    </div>
+  </div>
+</div>
+
+ 
+
+</body>
+</html>
